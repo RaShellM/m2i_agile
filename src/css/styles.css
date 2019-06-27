@@ -1,0 +1,28 @@
+div
+{
+	border :0.5px solid black;
+}
+
+#nom
+{
+
+	min-height: 120px;
+	background-color:green;
+}
+div.col
+{
+	min-height: 120px;
+}
+ div.col-sm
+ {
+	min-height: 120px;
+}
+
+#photo
+{
+	min-height: 100px;
+	min-width : 100px;
+	max-width: 200px;
+	background-color: lightgrey;
+	
+}
