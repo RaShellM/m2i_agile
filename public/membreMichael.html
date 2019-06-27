@@ -45,26 +45,26 @@
       </header>
 
   	<div class="container-fluid" id="mic-page-container">
-  	<h2 class="text-warning"> MICHEL Michaël - Concepteur / Réalisateur Web </h2>
+      <hr>
+  	<h1 class="text-warning"> MICHEL Michaël - Concepteur / Réalisateur Web </h1>
+      <hr>
 
 
-
-
-
-  	<div id="nom">
-  		<h1>MICHEL MICHAEL</h1>
-  	</div>
 
   	<div class="row align-items-start">
-  		<div class="col-sm">
+      <!--COL 1-->
+  		<div class="col-xs-6 col-sm-5 col-md-4">
+
+      <h2>PRÉSENTATION</h2>
+
   			<div class="card text-white bg-primary mb-3" style=" max-width: 20rem;">
   				<div class="card-body">
   					<p class="card-text">
               <ul>
                     <li>Age : <b class="text-warning">34 ans</b></li>
-                    <li>Famille : </li>
-                    <li>Adresse : </li>
-                    <li>Eperiences : </li>
+                    <li>Adresse : <b class="text-warning">1 Allée de la faculté</b></li>
+                    <li>Ville : <b class="text-warning">MEYLAN</b>
+                    <li>Code postal : <b class="text-warning">38240</b></li>
               </ul>
   				
   					</p>
@@ -73,26 +73,43 @@
   			<div class="w-100"></div>
 
   			<div class="card border-primary mb-3" style=" max-width: 20rem;">
-  				<div class="card-header">ma citation ici</div>
+  				<div class="card-header text-center">
+            <i class="fas fa-user fa-10x user-photo"></i>
+          </div>
   				<div class="card-body">
-  					<p class="card-text">ici la photo </p>
+  					<p class="card-text">
+              Je suis concepteur - développeur - réalisateur web depuis 2014
+            </p>
   				</div>
   			</div>
-
   		</div>
 
-  		<div class="col-sm">
-  			<h2>MOTIVATIONS</h2>
-  			<br>
-  			decrire les pincipaux point forts et peurs
-  		</div>
-
-  		<div class="col-sm">
-  			<h2>PERSONALITE</h2>
-  			<br>
-  			avec les barres laterales type niveau de remplissage
-  		</div>
-
+      <!--COL 2-->
+        <div class="col-xs-6 col-sm-5 col-md-4">
+          <h2>M2I FORMATION JAVA EE</h2>
+          <div class="list-group">
+            <a href="#" class="list-group-item list-group-item-action active">
+              LE PROGRAMMES
+            </a>
+            <a id="btn-html" href="#" class="list-group-item list-group-item-action">HTML5 / CSS3</a>
+            <a id="btn-js" href="#" class="list-group-item list-group-item-action">JavaScript</a>
+            <a id="btn-jquery" href="#" class="list-group-item list-group-item-action">jQuery et Ajax</a>
+            <a id="btn-api" href="#" class="list-group-item list-group-item-action">API HTML5</a>
+            <a id="btn-trello" href="#" class="list-group-item list-group-item-action">Trello</a>
+            <a id="btn-wamp" href="#" class="list-group-item list-group-item-action">Wamp</a>
+            <a id="btn-phpmydamin" href="#" class="list-group-item list-group-item-action">PhpMyAdmin</a>
+          </div>
+      </div>
+      <!--COL 3-->
+      <div class="col-xs-6 col-sm-5 col-md-4">
+          <h2>RÉSULTAT</h2>
+          <div class="list-group">
+            <div  class="list-group-item list-group-item-action result-container">
+              
+            </div>
+          </div>
+   
+  		
   	</div>
 
 
@@ -114,6 +131,10 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <!--PARALAX POUR LA COULEUR-->
     <script type="text/javascript" src="../src/js/skrollr.js"></script>
+    <script type="text/javascript" src="../src/js/mic.js"></script>
+    <script type="text/javascript">
+      let js = new JS();
+    </script>
 </body>
 
 </html>
