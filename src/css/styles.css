@@ -1,0 +1,63 @@
+        html,
+        body {
+            background-color: bisque;
+        }
+        /*NAVBAR*/
+        
+        .logo-m2i {
+            width: 15%;
+        }
+        
+        .navbar {
+            background-color: #ffffff!important;
+        }
+        /*1er Container*/
+        
+        .first-container {
+            width: 100%;
+            border-top: solid 2px #ffffff;
+            border-bottom: solid 2px #ffffff;
+        }
+        
+        .second-container {
+            width: 100%;
+            padding: 20px;
+            height: 800px;
+            border-top: solid 2px #ffffff;
+            border-bottom: solid 2px #ffffff;
+        }
+        
+        .third-container {
+            width: 100%;
+            padding: 20px;
+            height: 1200px;
+            border: solid 2px #ffffff;
+            margin-top: 200px;
+        }
+        
+        .paragraphe-ipsum {
+            color: #efefef;
+            font-size: 24px;
+        }
+        /*FORM*/
+        
+        .form-newsletter {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            border: dashed 5px #748589;
+        }
+        /*PAGE AJAX*/
+        
+        .ajax-container1 {
+            width: 100%;
+            padding: 20px;
+            height: 1200px;
+            border-top: solid 2px #ffffff;
+            border-bottom: solid 2px #ffffff;
+        }
+        
+        #main-container-ajax {
+            padding: 20px;
+            color: #fefefe;
+        }
