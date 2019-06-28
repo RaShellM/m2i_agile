@@ -10,14 +10,12 @@ div.col
 
 #photo
 {
-	min-height: 150px;
-	min-width : 150px;
+	min-height: 100px;
+	min-width : 100px;
 	max-width: 200px;
-	max-height: 200px;
 	background-color: lightgrey;
 	
 }
-
 #mainbody
 {
 	margin-top : 50px;
@@ -36,13 +34,3 @@ font-style: bold;
 {
 	margin-top: 10px;
 }
-
-#technologies
-{
-	display:none;
-}
-#diplomes
-{
-	display:none;
-}
-
