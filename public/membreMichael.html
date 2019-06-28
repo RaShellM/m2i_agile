@@ -19,7 +19,7 @@
   	<title>M2i_Agile - PAGE MICHAEL - </title>
   </head>
 
-  <body>
+  <body data-0="background-color:rgb(255, 255, 255);" data-1000="background-color:rgb(138, 165, 132);">
   	  <header>
         <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-primary">
           <a class="navbar-brand" href="index.html">
@@ -100,11 +100,17 @@
 
             <a id="btn-phpmydamin" href="https://www.phpmyadmin.net/" target="_blank" class="list-group-item list-group-item-action">PhpMyAdmin</a>
 
-            <a id="btn-phpmydamin" href="https://www.phpmyadmin.net/" target="_blank" class="list-group-item list-group-item-action">1</a>
+            <a id="btn-phpmydamin" href="https://www.phpmyadmin.net/" target="_blank" class="list-group-item list-group-item-action">
+              Java EE + Eclipse (ou IntelliJ)
+            </a>
 
-            <a id="btn-phpmydamin" href="https://www.phpmyadmin.net/" target="_blank" class="list-group-item list-group-item-action">2</a>
+            <a id="btn-phpmydamin" href="https://www.phpmyadmin.net/" target="_blank" class="list-group-item list-group-item-action">
+              MVC SpringBoot
+            </a>
 
-            <a id="btn-phpmydamin" href="https://www.phpmyadmin.net/" target="_blank" class="list-group-item list-group-item-action">3</a>
+            <a id="btn-phpmydamin" href="https://www.phpmyadmin.net/" target="_blank" class="list-group-item list-group-item-action">
+              PostMan pour les tests de requètes POST en JAVA
+            </a>
 
 
           </div>
@@ -115,7 +121,7 @@
           <div class="list-group">
             <div  class="list-group-item list-group-item-action result-container">
               <div>
-                  <p id="text-generer">Ici le texte = generer !!!!!</p>
+                  <p id="text-generer">Ici le texte générer depuis un fichier .txt</p>
               </div>
 
               <div class="xml-data">
@@ -133,14 +139,14 @@
                     <br />
                     <h3 class="text-primary">Appel d'un fichier json en Ajax</h3>
                     <div id="json-ajax-request">
-                        <p>Ici les valeurs de mon fichier json</p>
+                        <p>Ici les valeurs de mon fichier .json</p>
                     </div>
             </div>
           </div>
   	</div>
   </div>
 
-  <div class="second-container" data-0="background-color:rgb(94, 142, 104);" data-1000="background-color:rgb(132, 115, 95);">
+  <div class="second-container">
 
         <div class="row">
           <!--form-->
@@ -165,14 +171,14 @@
           </div>
 <!--Jumbotron-->
           <div class="col-md-4 animated slideInUp">
-            <div class="jumbotron">
+            <div class="text-center" id="center-2-container">
               <h1 class="display-4 text-danger">QIWOGAMES</h1>
               <p class="lead">Un site de développement de jeux vidéo 2D à l'aide du moteur gratuit de jeu vidéo : Unity 2019. Une mine d'information Dev Jeux Vidéo, Outils, Musique, etc...</p>
               <hr class="my-4">
               <p>Visitez ce site sans plus attendre, rejoignez la communautés.</p>
               <hr>
               <div class="text-center">
-                <a class="btn btn-outline-info btn-lg" href="http://qiwogames.alwaysdata.net/" target="_blank" role="button">QIWOGAMES.COM</a>
+                <a class="btn btn-outline-warning btn-lg" href="http://qiwogames.alwaysdata.net/" target="_blank" role="button">QIWOGAMES.COM</a>
               </div>
             </div>
           </div>
@@ -202,6 +208,9 @@
                 <span><a href=""><i class="fab fa-deviantart fa-4x fAwesom-social"></i></a></span>
             </div>
             <hr>
+             <div class="text-center">
+                <a class="btn btn-outline-success btn-lg" href="https://openclassrooms.com/fr/" target="_blank" role="button">Testez vos compétences</a>
+              </div>
           </div>
         </div>
   </div>
@@ -216,6 +225,7 @@
     <script type="text/javascript">
       $(document).ready(function(){
           let js = new JS();
+          let s = skrollr.init();
       });
 
     </script>
