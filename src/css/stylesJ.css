@@ -73,3 +73,20 @@ h2 {
 	margin-top: 5vh;
 	width: 100%;
 }
+
+.progressBox i {
+	position: absolute;
+	padding-top: 5px;
+	padding-left: 10px;
+
+}
+
+.progress {
+	height: 25px;
+}
+
+.iRight {
+	position: absolute;
+	right: 50px;
+	padding-top: 5px;
+}
