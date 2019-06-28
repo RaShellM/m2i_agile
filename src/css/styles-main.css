@@ -65,7 +65,35 @@ footer{
     padding: 20px;
     background-color: #ffffff;
 }
+#form-login{
+	background-color: #ffffff;
+}
+#progress-container{
+	background-color: #ffffff;
+}
 
+#slider-left{
+	width: 90%;
+	border: solid 1px #008cba;
+    padding: 20px;
+    background-color: #ffffff;
+}
+#timer{
+	width: 90%;
+	border: solid 1px #008cba;
+    padding: 20px;
+    background-color: #ffffff;
+}
+#demo{
+	position: relative;
+	top:50%;
+}
+#loaderGIF{
+	width: 90%;
+	border: solid 1px #008cba;
+    padding: 20px;
+    background-color: #ffffff;
+}
 
 
 
