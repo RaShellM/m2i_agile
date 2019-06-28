@@ -13,6 +13,8 @@ h2 {
 	font-style: italic;
 	font-weight: bold;
 	font-family: 'Nosifer', cursive;
+	width: 100%;
+	text-align: center;
 }
 
 #lifeListJ {
@@ -34,7 +36,6 @@ h2 {
 	margin: 5vh 0;
 	padding: 0 5vh;
 }
-
 
 
 #col2J>h3 {
@@ -93,5 +94,18 @@ h2 {
 
 #diplomBox {
 	justify-content: center;
+	align-items: center;
+}
+
+#col3J h3 {
+	font-weight: bold;
+}
+
+#col3J>div {
+	background-image: url("../img/brain.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-clip: padding-box; 
+	justify-content: space-around;
 	align-items: center;
 }
