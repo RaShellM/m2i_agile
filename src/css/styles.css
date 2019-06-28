@@ -31,12 +31,26 @@ div.col
 {
 	margin-top : 80px;
 }
+#mainbody
+{
+	margin-top : 50px;
+}
 
 h3
 {
 font-style: blue;
 font-style: bold;
 }
+<<<<<<< HEAD
+#grey
+{
+	background-color: lightgrey;
+}
+.progress
+{
+	margin-top: 10px;
+}
+=======
 .time
 {
 	background: url("../img/time.jpg") 0 0 no-repeat;
@@ -77,3 +91,4 @@ font-style: bold;
 {
 	position : relative;
 }
+>>>>>>> 69631234027f034afbacc8e2cb623763a9a41355

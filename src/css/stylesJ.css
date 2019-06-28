@@ -5,3 +5,107 @@ h2 {
 #map {
 	height: 400px;
 }
+
+
+/*///////////////// Memeber Jul //////////////*/
+
+.lifeJ {
+	font-style: italic;
+	font-weight: bold;
+	font-family: 'Nosifer', cursive;
+	width: 100%;
+	text-align: center;
+}
+
+#lifeListJ {
+	list-style: none;
+	padding-left: 0;
+	
+}
+
+#blueBox {
+	margin-bottom: 0 !important;
+}
+
+#blueBox h5 {
+	text-decoration: underline;
+}
+
+
+.row>div {
+	margin: 5vh 0;
+	padding: 0 5vh;
+}
+
+
+#col2J>h3 {
+	padding: 0.75rem 1.25rem;
+}
+
+#col2J>h3, #col2J>div, #col3J>div {
+	
+	margin: auto 0;
+}
+
+#diplomBox button i {
+	font-size: 2rem;
+}
+
+#diplomBox {
+	margin-bottom: 5vh !important;
+}
+#diplomBox button {
+	min-height: 5vh;
+	border-radius: 5px;
+	padding: 10px 20px;
+}
+
+#collapseExampleJ i {
+	margin: 10px;
+}
+
+#collapseExampleJ ul {
+	list-style: none;
+	margin: 0;
+	padding: 5vh;
+}
+
+#collapseExampleJ .card {
+	margin-top: 5vh;
+	width: 100%;
+}
+
+.progressBox i {
+	position: absolute;
+	padding-top: 5px;
+	padding-left: 10px;
+
+}
+
+.progress {
+	height: 25px;
+}
+
+.iRight {
+	position: absolute;
+	right: 50px;
+	padding-top: 5px;
+}
+
+#diplomBox {
+	justify-content: center;
+	align-items: center;
+}
+
+#col3J h3 {
+	font-weight: bold;
+}
+
+#col3J>div {
+	background-image: url("../img/brain.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-clip: padding-box; 
+	justify-content: space-around;
+	align-items: center;
+}
