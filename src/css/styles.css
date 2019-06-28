@@ -10,14 +10,16 @@ div.col
 
 #photo
 {
-	min-height: 150px;
-	min-width : 150px;
-	max-width: 200px;
-	max-height: 200px;
-	background-color: lightgrey;
-	
+	min-height: 200px;
+	min-width : 200px;
+	max-width: 250px;
+	max-height: 250px;
 }
 
+#mainbody
+{
+	margin-top : 80px;
+}
 #mainbody
 {
 	margin-top : 50px;
@@ -28,10 +30,34 @@ h3
 font-style: blue;
 font-style: bold;
 }
+<<<<<<< HEAD
 #grey
 {
 	background-color: lightgrey;
 }
+.progress
+{
+	margin-top: 10px;
+}
+=======
+.time
+{
+	background: url("../img/time.jpg") 0 0 no-repeat;
+	background-size:cover;
+	min-height: 300px;
+	padding:0 0 0 0;
+	border-bottom :0px;
+}
+.transparence
+{
+	background: url("../img/blanc.jpg") 0 0 no-repeat;
+	background-size:cover;
+	opacity :0.7;
+	min-height: 300px;
+	margin:10px;
+	padding:15px;
+}
+
 .progress
 {
 	margin-top: 10px;
@@ -46,3 +72,12 @@ font-style: bold;
 	display:none;
 }
 
+.fonty
+{
+	font-family: 'Gloria Hallelujah', cursive;
+}
+.moove
+{
+	position : relative;
+}
+>>>>>>> 69631234027f034afbacc8e2cb623763a9a41355
