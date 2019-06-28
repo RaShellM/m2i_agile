@@ -7,6 +7,8 @@
 
   	<!-- BootWatch Yeti CSS -->
   	<link rel="stylesheet" href="../src/css/bootstrap.min.css" type="text/css" />
+    <!-- JQUERY UI-->
+    <link rel="stylesheet" href="../src/css/jquery-ui.css" type="text/css" />
   	<!--FONT AWESOME-->
   	<link rel="stylesheet" href="../src/css/all.min.css" type="text/css" />
   	<!--ANIMATE-->
@@ -91,13 +93,13 @@
             <a href="#" class="list-group-item list-group-item-action active">
               LE PROGRAMMES
             </a>
-            <a id="btn-html" href="#" class="list-group-item list-group-item-action">HTML5 / CSS3</a>
-            <a id="btn-js" href="#" class="list-group-item list-group-item-action">JavaScript</a>
-            <a id="btn-jquery" href="#" class="list-group-item list-group-item-action">jQuery et Ajax</a>
-            <a id="btn-api" href="#" class="list-group-item list-group-item-action">API HTML5</a>
-            <a id="btn-trello" href="#" class="list-group-item list-group-item-action">Trello</a>
-            <a id="btn-wamp" href="#" class="list-group-item list-group-item-action">Wamp</a>
-            <a id="btn-phpmydamin" href="#" class="list-group-item list-group-item-action">PhpMyAdmin</a>
+            <a id="btn-text-xml" id="btn-text-xml" href="#" class="list-group-item list-group-item-action">Appel de données depuis un fichier .txt</a>
+            <a id="btn-js" id="btn-xml" href="#" class="list-group-item list-group-item-action">Appel de données depuis un fichier .xml</a>
+            <a id="btn-jquery" id="btn-json" href="#" class="list-group-item list-group-item-action">Appel de données depuis un fichier .json</a>
+            <a id="btn-api" id="btn-api" href="" target="_blank" class="list-group-item list-group-item-action">API HTML5</a>
+            <a id="btn-trello" href="https://trello.com/b/YKgHlqTU/sprint1-backlock" class="list-group-item list-group-item-action">Trello</a>
+            <a id="btn-wamp" href="http://www.wampserver.com/" class="list-group-item list-group-item-action">Wamp</a>
+            <a id="btn-phpmydamin" href="https://www.phpmyadmin.net/" target="_blank" class="list-group-item list-group-item-action">PhpMyAdmin</a>
           </div>
       </div>
       <!--COL 3-->
@@ -105,7 +107,27 @@
           <h2>RÉSULTAT</h2>
           <div class="list-group">
             <div  class="list-group-item list-group-item-action result-container">
-              
+              <div>
+                  <p id="text-generer">Ici le texte = generer !!!!!</p>
+              </div>
+
+              <div class="xml-data">
+                  <p>Ici une liste d'utilisateur depuis un fichier .xml</p>
+              </div>
+
+              <form>
+                    <div class="form-group">
+                            <h3 class="text-info">jQuery UI + autocomplete + nom des ville en dur</h3>
+                            <label>Taper le nom d'une ville en autocomplete : </label>
+                            <input type="text" name="autocomple" class="form-control" id="autocomplete" placeholder="Entrer le nom d'une ville" />
+                        </div>
+                    </form>
+
+                    <br />
+                    <h3 class="text-primary">Appel d'un fichier json en Ajax</h3>
+                    <div id="json-ajax-request">
+                        <p>Ici les valeurs de mon fichier json</p>
+                    </div>
             </div>
           </div>
    
@@ -126,10 +148,11 @@
 
   </div>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" type="text/JavaScript"></script>
+    <script src="../src/js/jquery.js" type="text/JavaScript"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <!--PARALAX POUR LA COULEUR-->
+    <script type="text/javascript" src="../src/js/jquery-ui.js"></script>
     <script type="text/javascript" src="../src/js/skrollr.js"></script>
     <script type="text/javascript" src="../src/js/mic.js"></script>
     <script type="text/javascript">
