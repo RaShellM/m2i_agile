@@ -8,6 +8,7 @@ body{
 	margin:20px;
 	padding: 20px;
 	color: #333333;
+	background-color: #ededed;
 }
 
 /*NAVBAR*/
@@ -34,6 +35,35 @@ footer{
 /*PAGE DE MICHAEL*/
 #mic-page-container{
 	margin-top: 40px;
+}
+
+.second-container{
+	height: 1200px;
+}
+#form-login{
+	border: solid 1px #008cba;
+    padding: 20px;
+
+}
+.progressbar-container{
+	width: 100%;
+	border: solid 1px #008cba;
+    padding: 20px;
+}
+.fAwesom-social{
+	width: 20%;
+	transition: all .2s ease-in-out;
+}
+
+.fAwesom-social:hover{
+	color: orange;
+	transform: scale(1.5);
+}
+#center-2-container{
+	width: 100%;
+	border: solid 1px #008cba;
+    padding: 20px;
+    background-color: #ffffff;
 }
 
 

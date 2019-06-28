@@ -1,0 +1,36 @@
+
+div.col
+{
+	min-height: 120px;
+}
+ div.col-sm
+ {
+	min-height: 120px;
+}
+
+#photo
+{
+	min-height: 100px;
+	min-width : 100px;
+	max-width: 200px;
+	background-color: lightgrey;
+	
+}
+#mainbody
+{
+	margin-top : 50px;
+}
+
+h3
+{
+font-style: blue;
+font-style: bold;
+}
+#grey
+{
+	background-color: lightgrey;
+}
+.progress
+{
+	margin-top: 10px;
+}

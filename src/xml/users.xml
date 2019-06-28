@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<annuaire>
+    <personne>
+        <nom>HAWKING</nom>
+        <prenom>Stephen</prenom>
+    </personne>
+    <personne>
+        <nom>REEVES</nom>
+        <prenom>Hubert</prenom>
+    </personne>
+    <personne>
+        <nom>EINSTEN</nom>
+        <prenom>Albert</prenom>
+    </personne>
+</annuaire>
