@@ -1,13 +1,4 @@
-div
-{
-	border :0.5px solid black;
-}
 
-#nom
-{
-	min-height: 120px;
-	background-color:green;
-}
 div.col
 {
 	min-height: 120px;
@@ -25,4 +16,21 @@ div.col
 	background-color: lightgrey;
 	
 }
+#mainbody
+{
+	margin-top : 50px;
+}
 
+h3
+{
+font-style: blue;
+font-style: bold;
+}
+#grey
+{
+	background-color: lightgrey;
+}
+.progress
+{
+	margin-top: 10px;
+}
