@@ -39,7 +39,7 @@
 			</div>
 		</nav>
 	</header>
-<!-- 	le contenu sous la navigation ***********************************-->
+	<!-- 	le contenu sous la navigation ***********************************-->
 	<div class="container-fluid" >
 		<div id="mainbody">
 			<hr>
@@ -47,39 +47,39 @@
 			<hr>
 		</div> 
 <!-- Colonne 1 ************************************************************-->
-		<div class="row align-items-start">
-
+		<div class="row">
+			<!-- Colonne 1 ************************************************************-->
 			<div class="col-md-4">
 				<div class="card border-primary mb-3">
-					<div class="card-body">
-						<img class="card-text animated zoomIn" id="photo" src='../src/img/rachel.jpg'></img>
-
+					<div class="card-body text-center">
+						<img class="card-text animated zoomIn img-fluid" id="photo" src='../src/img/rachel.jpg'></img>
 					</div>
-				<div class="card-header fonty">Les erreus ont presque toujours un caractère sacré. N'essaye jamais de les corriger - Dali</div>
+					<div class="card-header fonty">Les erreus ont presque toujours un caractère sacré. N'essaye jamais de les corriger - Dali
+					</div>
 
-				<div class="w-100"></div>
+					<div class="w-100">
+					</div>
 				<div class="card text-white bg-primary mb-3 animated slideInLeft">
 					<div class="card-body" >
-						<p>	Adresse : <br>Grenoble, 38 <br> France </p>
-						
-							<h5>Certificats : </h5>
-								<ul class="card-text">
-									<li>Permis : B </li>
-									<li>Adresse : </li>
-									<li>Premiers Secours Travail</li>
-									<li> CQP Cordiste niveau 1</li>
-									<li>EAT Contemporain</li>
-								</ul>
-						</p>
+						<h5>Info Perso : </h5>
+							<p>	Adresse : <br>Grenoble, 38 <br> France </p>
+						<h5>Certificats : </h5>
+							<ul class="card-text">
+								<li>Permis : B </li>
+								<li>Adresse : </li>
+								<li>Premiers Secours Travail</li>
+								<li> CQP Cordiste niveau 1</li>
+								<li>EAT Contemporain</li>
+							</ul>
 					</div>
 				</div>
 			</div>
 		</div>
-			<!-- Colonne 2 -->
-		<div class="col-md-5">
-				<h3 >Bio</h3>
-				<div class="card-header time">
-					<div class='transparence'>
+
+<!-- Colonne 2 ***********************************-->
+			<div class="col-md-7">	
+				<div class="card-header">
+					<h3 >Bio</h3>
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -93,56 +93,67 @@
 					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-					</div>
 				</div>
-			</div>
-			<!-- Colonne 3 -->
-			<div class="col-md-3">
-				<div>
-					<h3>Diplômes</h3>
-						<i class="fas fa-graduation-cap fa-7x moove" style="color:orange" id='dip'></i>
+
+				<div class="row">
+					<div class="col">
+						<h3>Diplômes</h3>
+						<i class="fas fa-graduation-cap fa-7x moove" style="color:#D35400" id='dip'></i>
 						<div class="text-secondary" id="diplomes">
 							M2I : Java Full Stack
-						<br>
-						M2 Biology Sante
+							<br>
+							M2 Didactique des sciences
+							<br>
+							M2 Ingenierie de la formation
+							<br>
+							M1 Biology Sante
+							<br>
+
+						</div>
+					</div>
+	<!-- Colonne 2 //techno web */********************************************-->
+					<div class="col">
+						<h3>Techno/Web</h3>
+						<i class="fas fa-keyboard fa-8x moove" id='tech'></i>
+						<a href="#ancre">voir la carte</a>
+						<div id='technologies'>
+							<div class="progress">
+								<div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" label='GitHub'></div>
+							</div>
+
+							<div class="progress"> JavaScript
+								<div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+							</div>
+
+							<div class="progress"> Jquery
+								<div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+							</div>
+
+							<div class="progress"> API Umap, OSM
+								<div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+							</div>
+
+							<div class="progress"> CSS
+								<div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+							</div>
+
+							<div class="progress"> HTML
+								<div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+							</div>
+
+							<div class="progress"> 
+								<div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+							</div>
+						</div>
 					</div>
 				</div>
 
-				<div><h3>Techno/Web</h3>
-					<i class="fas fa-keyboard fa-8x" id='tech'></i>
-					<a href="#ancre">voir la carte</a>
-					<div id='technologies'>
+			</div>
+<!-- Colonne 3********************************************* -->
+			<div class="col-md-1">
+<!-- Colonne 3 //diplomes */********************************************-->
 
-						<div class="progress">
-							<div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" label='GitHub'></div>
-						</div>
-
-						<div class="progress"> JavaScript
-							<div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-						</div>
-
-						<div class="progress"> Jquery
-							<div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-						</div>
-
-						<div class="progress"> API Umap, OSM
-							<div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-						</div>
-
-						<div class="progress"> CSS
-							<div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-						</div>
-
-						<div class="progress"> HTML
-							<div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-						</div>
-
-						<div class="progress"> 
-							<div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-						</div>
-					</div>
-				</div>
-				
+<!-- Colonne 3 //liens media */********************************************-->
 				<h3>Liens autres Media</h3>
 				<div diplay="flex">
 
@@ -156,15 +167,15 @@
 
 					<a href="https://fr-fr.facebook.com/public/Rachel-Martin">
 						<div>
-						<i class="fab fa-facebook f08c fa-3x moove"></i>
-						<br>Perso
+							<i class="fab fa-facebook f08c fa-3x moove"></i>
+							<br>Perso
 						</div>
 					</a>
-					
+
 					<br>
 
 					<i class="fab fa-github fa-3x moove">
-					<a href="https://github.com/RaShellM"></a>
+						<a href="https://github.com/RaShellM"></a>
 					</i>
 					<br>
 
@@ -174,33 +185,40 @@
 			</div>
 		</div>
 
+<!-- !-- PARTIE 2 */********************************************--> 
+		<div class="row align-items-start">
 
-		<div class="row align-items-end">
-
-			<div class="col" id="ancre">
-				<h3>Soft Skills</h3>
-				<div>
-					duihpzfuhze,fuiophspquif
+			<div class="col-md-3 jumbotron" id="ancre">
+				<h3>Soft Skills <br></h3>
+					<div class="card-header time">
+						<div class='transparence'>
+						ici on montre qu'on sait faire de la tranqparence
+					</div>
 				</div>
 			</div>
 
-			<div class="col">Carte personnalisée par les infos ponctuelles, ou trajets
-				<iframe width="100%" height="300px" frameborder="0" allowfullscreen src="https://umap.openstreetmap.fr/fr/map/carte-perso_340930?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&allowEdit=false&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=undefined&captionBar=false"></iframe><p><a href="https://umap.openstreetmap.fr/fr/map/carte-perso_340930">Voir en plein écran</a></p>
+			<div class="col-md-6 jumbotron">
+				<h3>Lieux de travail et d'etude</h3>
+				<iframe width="100%" height="400px" frameborder="1" allowfullscreen src="https://umap.openstreetmap.fr/fr/map/carte-perso_340930?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&allowEdit=false&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=undefined&captionBar=false"></iframe><p><a href="https://umap.openstreetmap.fr/fr/map/carte-perso_340930">Voir en plein écran</a></p>
 			</div>
 
-			<div class="col">Espace legende</div>
+			<div class="col-md-3 jumbotron">
+				<h3>Dali <br></h3>
+				<div class=" time">
+					
+				</div>
+			</div>
 		</div>
-	</div>
 
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-	<script type="text/javascript" src="../src/js/membre.js"></script>
-</body>
+		<script type="text/javascript" src="../src/js/membre.js"></script>
+	</body>
 
-</html>
+	</html>
