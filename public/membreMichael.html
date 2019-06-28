@@ -93,10 +93,10 @@
             <a href="#" class="list-group-item list-group-item-action active">
               LE PROGRAMMES
             </a>
-            <a id="btn-text-xml" id="btn-text-xml" href="#" class="list-group-item list-group-item-action">Appel de données depuis un fichier .txt</a>
-            <a id="btn-js" id="btn-xml" href="#" class="list-group-item list-group-item-action">Appel de données depuis un fichier .xml</a>
-            <a id="btn-jquery" id="btn-json" href="#" class="list-group-item list-group-item-action">Appel de données depuis un fichier .json</a>
-            <a id="btn-api" id="btn-api" href="" target="_blank" class="list-group-item list-group-item-action">API HTML5</a>
+            <a id="btn-text-xml" href="#" class="list-group-item list-group-item-action">Appel de données depuis un fichier .txt</a>
+            <a id="btn-xml" href="#" class="list-group-item list-group-item-action">Appel de données depuis un fichier .xml</a>
+            <a id="btn-json" href="#" class="list-group-item list-group-item-action">Appel de données depuis un fichier .json</a>
+            <a  id="btn-api" href="" target="_blank" class="list-group-item list-group-item-action">API HTML5</a>
             <a id="btn-trello" href="https://trello.com/b/YKgHlqTU/sprint1-backlock" class="list-group-item list-group-item-action">Trello</a>
             <a id="btn-wamp" href="http://www.wampserver.com/" class="list-group-item list-group-item-action">Wamp</a>
             <a id="btn-phpmydamin" href="https://www.phpmyadmin.net/" target="_blank" class="list-group-item list-group-item-action">PhpMyAdmin</a>
@@ -156,7 +156,10 @@
     <script type="text/javascript" src="../src/js/skrollr.js"></script>
     <script type="text/javascript" src="../src/js/mic.js"></script>
     <script type="text/javascript">
-      let js = new JS();
+      $(document).ready(function(){
+          let js = new JS();
+      });
+
     </script>
 </body>
 

@@ -10,10 +10,13 @@ function GetTextFromTxt(){
 		$("#text-generer").toggle(function(){
 			$.ajax({
 			url: "../src/txt/infos.txt",
+			crossOrigin: true,
+			type: "GET",
+			dataType: "html",
 			success: function(result){
 				$("#text-generer").html(result);
 			}
-		});
+			});
 		});
 		
 	});
@@ -24,9 +27,9 @@ function AddXMLData() {
 	$("#btn-xml").click(function(){
 		$(".xml-data").toggle(function(){
 			$.ajax({
-        type: "GET",
-        url: "../src/xml/users.xml",
-        dataType: "xml",
+	        type: "GET",
+	        url: "../src/xml/users.xml",
+	        dataType: "xml",
         success: function(myXml) {
             //Parser me fichier xml et recup les datas
             $(myXml).find('nom').each(function() {
