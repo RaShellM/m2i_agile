@@ -41,7 +41,10 @@ h3
 font-style: blue;
 font-style: bold;
 }
-
+.grey
+{
+	background-color: rgb(238,238,238);
+}
 .time
 {
 	background: url("../img/time.jpg") 0 0 no-repeat;
