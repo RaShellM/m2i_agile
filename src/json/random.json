@@ -1,0 +1,50 @@
+[
+  {
+    "_id": "5d0cdcbacd8cb9cfe7ada796",
+    "index": 0,
+    "guid": "97f2b9f7-4324-44b1-a72d-ab03949789d5",
+    "isActive": false,
+    "picture": "http://placehold.it/32x32",
+    "name": {
+      "first": "Trudy",
+      "last": "Mullen"
+    },
+    "company": "ACCIDENCY"
+  },
+  {
+    "_id": "5d0cdcba52def0af7aebd192",
+    "index": 1,
+    "guid": "01c43122-994c-49c6-a7bc-2fef40090ce5",
+    "isActive": false,
+    "picture": "http://placehold.it/32x32",
+    "name": {
+      "first": "Blake",
+      "last": "Hensley"
+    },
+    "company": "BUZZMAKER"
+  },
+  {
+    "_id": "5d0cdcbabb5bc04c3df02510",
+    "index": 2,
+    "guid": "bc33cc4f-536d-4217-829d-1b54e96495d8",
+    "isActive": true,
+    "picture": "http://placehold.it/32x32",
+    "name": {
+      "first": "Jane",
+      "last": "Middleton"
+    },
+    "company": "INSURETY"
+  },
+  {
+    "_id": "5d0cdcbaac6196001ee19afc",
+    "index": 3,
+    "guid": "3eadd177-9e7d-4a45-affb-76d98b0556ee",
+    "isActive": false,
+    "picture": "http://placehold.it/32x32",
+    "name": {
+      "first": "Boone",
+      "last": "Faulkner"
+    },
+    "company": "PHARMACON"
+  }
+]
