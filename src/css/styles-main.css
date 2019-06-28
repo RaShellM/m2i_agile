@@ -43,12 +43,14 @@ footer{
 #form-login{
 	border: solid 1px #008cba;
     padding: 20px;
+    background-color: #ffffff;
 
 }
 .progressbar-container{
 	width: 100%;
 	border: solid 1px #008cba;
     padding: 20px;
+
 }
 .fAwesom-social{
 	width: 20%;
@@ -65,21 +67,18 @@ footer{
     padding: 20px;
     background-color: #ffffff;
 }
-#form-login{
-	background-color: #ffffff;
-}
+
 #progress-container{
 	background-color: #ffffff;
 }
 
 #slider-left{
-	width: 90%;
 	border: solid 1px #008cba;
     padding: 20px;
     background-color: #ffffff;
 }
 #timer{
-	width: 90%;
+
 	border: solid 1px #008cba;
     padding: 20px;
     background-color: #ffffff;
@@ -89,7 +88,7 @@ footer{
 	top:50%;
 }
 #loaderGIF{
-	width: 90%;
+
 	border: solid 1px #008cba;
     padding: 20px;
     background-color: #ffffff;
